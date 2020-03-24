@@ -51,6 +51,13 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+@media (max-width: 768px) {
+  .portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
 .portfolio-item-wrapper {
   position: relative;
 }
@@ -99,6 +106,13 @@ body {
 .two-column-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 650px) {
+  .two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 img {
