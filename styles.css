@@ -6,6 +6,7 @@ html {
 
 body {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.25rem;
 }
 .container {
@@ -93,6 +94,23 @@ body {
 .img-darken {
   transition: 1s;
   filter: brightness(10%);
+}
+
+.two-column-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+img {
+  width: 100%;
+}
+
+.profile-content-wrapper {
+  padding: 2em;
+}
+
+h1 {
+  color: lightseagreen;
 }
 
 
