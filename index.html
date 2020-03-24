@@ -57,7 +57,7 @@
               </div>
 
               <div class="subtitle">
-                Woke keytar meh photo booth. 3 wolf moon brunch aesthetic yuccie, yr art party snackwave.
+                Woke keytar meh photo booth. 3 wolf moon brunch aesthetic yuccie.
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@
               </div>
 
               <div class="subtitle">
-                I'm baby freegan cardigan before they sold out, direct trade cliche etsy pop-up twee celiac banjo seitan hot chicken.
+                I'm baby freegan cardigan before they sold out, direct trade cliche etsy pop-up  hot chicken.
               </div>
             </div>
           </div>
@@ -132,7 +132,7 @@
               </div>
 
               <div class="subtitle">
-                I'm baby freegan cardigan before they sold out, direct trade cliche etsy pop-up twee celiac banjo seitan hot chicken.
+                I'm baby freegan cardigan before they sold out, direct trade cliche etsy pop-up twee celiac.
               </div>
             </div>
           </div>
@@ -177,7 +177,7 @@
               </div>
 
               <div class="subtitle">
-                I'm baby freegan cardigan before they sold out, direct trade cliche etsy pop-up twee celiac banjo seitan hot chicken.
+                I'm baby freegan sold out, direct trade cliche etsy pop-up twee celiac banjo seitan hot chicken.
               </div>
             </div>
           </div>
@@ -207,16 +207,33 @@
               </div>
 
               <div class="subtitle">
-                Air plant vice four dollar toast, sartorial poutine drinking vinegar chambray coloring book pabst.
+                Air plant vice four dollar toast, drinking vinegar chambray coloring book pabst.
               </div>
             </div>
           </div>
 
         </div>
       </div>
-
     </div>
 
   </body>
 
+  <script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+
+    portfolioItems.forEach(portfolioItem => { 
+      portfolioItem.addEventListener('mouseover', () => {
+        portfolioItem.childNodes[1].classList.add('img-darken');
+      })
+
+      portfolioItem.addEventListener('mouseout', () => {
+        portfolioItem.childNodes[1].classList.remove('img-darken');
+      })
+
+    })
+    
+  </script>
+
 </html>
+
+

@@ -78,8 +78,14 @@ body {
   border-radius: 5px;
 }
 
-.subtitle {
+.img-text-wrapper .subtitle {
   margin: 1em;
+  transition: 1s;
+  font-weight: 600;
+  color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle {
   font-weight: 600;
   color: lightseagreen;
 }
